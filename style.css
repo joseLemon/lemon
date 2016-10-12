@@ -1,0 +1,202 @@
+/* -- FONTS -- */
+@import 'https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700|Open+Sans';
+
+/* -- GENERAL STYLES -- */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.spacing {
+    padding: 100px 10px;
+}
+
+.light-spacing {
+    padding: 50px 10px;
+}
+
+.heading-bg {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+    font-weight: 700;
+    color: #f6f7f8;
+    margin: 0;
+    position: absolute;
+    top: -50px;
+    left: calc(-8% + 30px);
+    z-index: -1;
+}
+
+.heading-primary {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #8c929a;;
+}
+
+.heading-secondary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #8cc23d;
+}
+
+.white {
+    color: #fff;
+}
+
+/* -- NAVBAR -- */
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    height: 100px;
+    -wbkit-transition: background 600ms ease, height 300ms ease;
+    -moz-transition: background 600ms ease, height 300ms ease;
+    transition: background 600ms ease, height 300ms ease;
+}
+
+.navbar.scrolling {
+    height: 90px;
+    background: rgba(255,255,255,.95);
+}
+
+.navbar.scrolling .navbar-nav>li {
+    height: 90px;
+}
+
+.navbar.scrolling .navbar-nav>li>a {
+    color: #1a1a1a!important;
+}
+
+.navbar.scrolling .navbar-brand {
+    margin-top: 5px;
+}
+
+.navbar .navbar-brand .white,
+.navbar.scrolling .navbar-brand .black {
+    display: block;
+}
+
+.navbar.scrolling .navbar-brand .white,
+.navbar .navbar-brand .black {
+    display: none;
+}
+
+.navbar .container-fluid {
+    max-width: 1170px;
+}
+
+.navbar-brand {
+    height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-transition: margin 300ms ease;
+    -moz-transition: margin 300ms ease;
+    transition: margin 300ms ease;
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-nav>li {
+    height: 100px;
+    -webkit-transition: height 300ms ease;
+    -moz-transition: height 300ms ease;
+    transition: height 300ms ease;
+}
+
+.navbar-nav>li>a {
+    color: #fff!important;
+    border: 2px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    -webkit-transition: border 300ms ease, color 300ms ease;
+    -moz-transition: border 300ms ease, color 300ms ease;
+    transition: border 300ms ease, color 300ms ease;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li.active>a {
+    border: 2px solid #fff;
+}
+
+/* -- INICIO -- */
+.inicio {
+    height: 100vh;
+    background: url(img/backgrounds/index.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicio h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    margin: 0;
+}
+
+.inicio h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+/* -- AGENCIA -- */
+.agencia {
+    
+}
+
+.agencia .container {
+    position: relative;
+}
+
+.agencia .carousel-indicators {
+    position: relative;
+    bottom: initial;
+    margin: 0;
+    margin-top: 30px;
+    left: auto;
+    text-align: left;
+}
+
+.agencia .carousel-indicators li {
+    border: 3px solid #8cc23d;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 0;
+}
+
+.agencia .carousel-indicators li.active {
+    background-color: #8cc23d;
+}
+
+/* -- METRICS -- */
+.metrics {
+    background: url(img/backgrounds/metrics.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.metrics h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.metrics p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
