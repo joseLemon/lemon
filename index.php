@@ -143,42 +143,158 @@
                 <div class="portafolio-project">
                     <div class="img-container">
                         <img src="img/portafolio/1.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Registralow
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
                         <img src="img/portafolio/2.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Cerro grande corporativo
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="portafolio-project">    
                     <div class="img-container">
                         <img src="img/portafolio/3.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Ganti
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
                         <img src="img/portafolio/1.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Registralow
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
                         <img src="img/portafolio/2.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Cerro grande corporativo
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="portafolio-project">    
                     <div class="img-container">
                         <img src="img/portafolio/3.png" alt="Portafolio">
+                        <div class="project-desc">
+                            <div class="desc-container">
+                                <p class="title">
+                                    Ganti
+                                </p>
+                                <p class="features">
+                                    Diseño y desarrollo Web
+                                </p>
+                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </div>
     <!-- ================================== -->
 
-    <!-- ///////////  FEATURES  \\\\\\\\\\\ -->
+    <!-- ///////////  LO QUE NOS CARACTERIZA  \\\\\\\\\\\ -->
 
     <!-- ================================== -->
-    <div class="features spacing" id="features">
-
+    <div class="caracteriza spacing" id="caracteriza">
+        <div class="container">
+            <div class="row no-margin">
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/diseno.png" alt="Diseño Creativo">
+                    <p class="title">Diseño creativo</p>
+                    <p class="text">
+                        Nuestro diseño es original para poder transmitir al mundo la esencia de tu empresa de una manera muy visual.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/pixel.png" alt="Pixel Perfect">
+                    <p class="title">Pixel Perfect</p>
+                    <p class="text">
+                        Un diseño de interfaz, debe ser Hermoso, Habitable y sobre todo Funcional. Diseño gráfico, estructura e ingeniería en perfecta armonía.
+                    </p>
+                </div>
+                <div class="clearfix hidden-lg hidden-md hidden-xs"></div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/responsive.png" alt="Web Responsive">
+                    <p class="title">web responsive</p>
+                    <p class="text">
+                        Nuestras páginas son flexibles en adaptarse al tamaño de distintas pantallas como smartphone, tablet y computadora para que el usuario pueda visitarlas y leer con toda comodidad.
+                    </p>
+                </div>
+                <div class="clearfix hidden-sm hidden-xs"></div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/tecnologia.png" alt="Última Tecnología">
+                    <p class="title">ÚLTIMA TECNOLOGÍA</p>
+                    <p class="text">
+                        Somos expertos en diseño y programación  HTML5, manteniéndonos al tanto de nuevas tecnologías y trending.
+                    </p>
+                </div>
+                <div class="clearfix hidden-lg hidden-md hidden-xs"></div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/codigo.png" alt="Código Limpio">
+                    <p class="title">código limpio</p>
+                    <p class="text">
+                        Nuestro desarrollo es eficiente, simple y directo que constituye un complemento perfecto para la funcionalidad de tu página.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/caracteriza/soporte.png" alt="Soporte de Expertos">
+                    <p class="title">SOPORTE DE EXPERTOS</p>
+                    <p class="text">
+                        Soporte técnico y mantenimiento web, estos servicios son importantes para la seguridad y buen funcionamiento son complementarios al diseño de páginas web y tiendas virtuales.
+                    </p>
+                </div>
+                <div class="clearfix hidden-lg hidden-md hidden-xs"></div>
+            </div>
+        </div>
     </div>
 </div>
 <?php include('footer.php');?>
