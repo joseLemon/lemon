@@ -44,8 +44,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lemon Three</title>
+        <link rel="shortcut icon" href="img/icon.ico">
         <link rel="stylesheet" href="css/jquery-ui.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
