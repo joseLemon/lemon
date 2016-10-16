@@ -21,7 +21,7 @@
         <div class="container">
             <h1 class="heading-bg">nosotros</h1>
             <div class="col-sm-6">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
@@ -46,9 +46,8 @@
 
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
                     </ol>
                 </div>
             </div>
@@ -142,7 +141,7 @@
             <div class="slider">
                 <div class="portafolio-project">
                     <div class="img-container">
-                        <img src="img/portafolio/1.png" alt="Portafolio">
+                        <img src="img/portafolio/1.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -151,14 +150,14 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
-                        <img src="img/portafolio/2.png" alt="Portafolio">
+                        <img src="img/portafolio/2.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -167,14 +166,14 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="portafolio-project">    
                     <div class="img-container">
-                        <img src="img/portafolio/3.png" alt="Portafolio">
+                        <img src="img/portafolio/3.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -183,14 +182,14 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
-                        <img src="img/portafolio/1.png" alt="Portafolio">
+                        <img src="img/portafolio/1.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -199,14 +198,14 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="portafolio-project">
                     <div class="img-container">
-                        <img src="img/portafolio/2.png" alt="Portafolio">
+                        <img src="img/portafolio/2.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -215,14 +214,14 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="portafolio-project">    
                     <div class="img-container">
-                        <img src="img/portafolio/3.png" alt="Portafolio">
+                        <img src="img/portafolio/3.jpg" alt="Portafolio">
                         <div class="project-desc">
                             <div class="desc-container">
                                 <p class="title">
@@ -231,7 +230,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icon/see-project.png" alt="Open Modal"></a>
+                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -293,6 +292,34 @@
                     </p>
                 </div>
                 <div class="clearfix hidden-lg hidden-md hidden-xs"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================== -->
+
+    <!-- ///////////  CONTACTO  \\\\\\\\\\\ -->
+
+    <!-- ================================== -->
+    <div class="contacto" id="contacto">
+        <div class="col-sm-4 googleMap" id="googleMap"></div>
+        <div class="col-sm-8 contacto-bg"></div>
+        <div class="container">
+            <div class="row no-margin">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                    <div class="mail-form light-spacing">
+                        <h3 class="heading-secondary white text-center">Contacto</h3>
+                        <div class="divider divider-white center-block"></div>
+                        <div class="col-sm-6">
+                            <input type="text" name="name" id="name" placeholder="NOMBRE">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" id="email" placeholder="CORREO">
+                        </div>
+                        <textarea name="mssg" id="mssg" cols="30" rows="10" placeholder="MENSAJE"></textarea>
+                        <input type="submit" name="submit" value="ENVIAR">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

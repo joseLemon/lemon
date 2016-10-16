@@ -3,6 +3,8 @@ $('.slider').slick({
     centerMode: true,
     centerPadding: '0px',
     focusOnSelect: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
         {
             breakpoint: 768,
@@ -25,7 +27,7 @@ $('.slider').slick({
     ]
 });
 
-$('.portafolio-project').on('swipe', function(event, slick, direction){
-  console.log(direction);
-  // left
+$('.navbar-nav li').click(function() {
+    $('.navbar-nav li').removeClass('active');
+    $(this).addClass('active');
 });

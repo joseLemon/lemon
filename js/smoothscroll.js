@@ -3,10 +3,7 @@ $('.smoothscroll').click(function(e) {
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, {
-        duration: 500,
-        specialEasing: {
-            width: "linear",
-            height: "easeOutBounce"
-        }
+        duration: 1000,
+        easing: 'easeInOutCubic'
     });
 });
