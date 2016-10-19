@@ -419,7 +419,7 @@ body {
 .contacto .googleMap,
 .contacto .contacto-bg {
     background-color: #fff;
-    position: absolute;
+    position: absolute!important;
     height: 100%;
     padding: 0;
 }
@@ -570,7 +570,7 @@ body {
 footer {
     padding: 12px 0;
     font-family: 'Myriad Pro', 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     background-color: #000000;
 }
@@ -702,7 +702,11 @@ footer p {
     }
     .portafolio .slider {
         width: 100%;
-        max-width: 600px;
+        max-width: 450px;
+        max-height: 500px;
+    }
+    .portafolio .img-container {
+        max-height: 500px;
     }
     .portafolio-project .img-container {
         width: 100%!important;
@@ -715,7 +719,7 @@ footer p {
         display: none!important;
     }
     .contacto .googleMap {
-        position: relative;
+        position: relative!important;
         height: 350px;
     }
     .contacto .contacto-bg {
@@ -724,5 +728,16 @@ footer p {
     .contacto .container {
         background: url(img/backgrounds/contacto.jpg) no-repeat center center;
         background-size: cover;
+    }
+    .contacto .col-sm-8,
+    .contacto .col-sm-6 {
+        padding: 0!important;
+        float: none!important;
+    }
+}
+
+@media(max-width: 480px) {
+    .agencia .carousel-inner {
+        min-height: 410px;
     }
 }

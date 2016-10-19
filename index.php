@@ -320,22 +320,20 @@
         <div class="col-sm-4 googleMap" id="googleMap"></div>
         <div class="col-sm-8 contacto-bg"></div>
         <div class="container">
-            <div class="row no-margin">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-8">
-                    <div class="mail-form light-spacing">
-                        <h3 class="heading-secondary white text-center">Contacto</h3>
-                        <div class="divider divider-white center-block"></div>
-                        <div class="col-sm-6">
-                            <input type="text" name="name" id="name" placeholder="NOMBRE">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" id="email" placeholder="CORREO">
-                        </div>
-                        <textarea name="mssg" id="mssg" cols="30" rows="10" placeholder="MENSAJE"></textarea>
-                        <input type="submit" name="submit" value="ENVIAR">
+            <div class="col-sm-8 pull-right">
+                <form action="mailer.php" id="contact-form" class="mail-form light-spacing">
+                    <h3 class="heading-secondary white text-center">Contacto</h3>
+                    <div class="divider divider-white center-block"></div>
+                    <div class="col-sm-6">
+                        <input type="text" name="name" id="name" placeholder="NOMBRE">
                     </div>
-                </div>
+                    <div class="col-sm-6">
+                        <input type="email" name="email" id="email" placeholder="CORREO">
+                    </div>
+                    <textarea name="mssg" id="mssg" cols="30" rows="10" placeholder="MENSAJE"></textarea>
+                    <input type="submit" name="submit" id="#form-submit" value="ENVIAR">
+                    <div id="form-output"></div>
+                </form>
             </div>
         </div>
     </div>
