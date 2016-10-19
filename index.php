@@ -34,12 +34,27 @@
                             </p>
                         </div>
                         <div class="item">
-                            <h5 class="heading-primary">Hola mundo, somos</h5>
-                            <h3 class="heading-secondary">Lemon Tree</h3>
+                            <h5 class="heading-primary"></h5>
+                            <h3 class="heading-secondary">Misión y visión</h3>
                             <div class="divider"></div>
                             <p class="text">
-                                Nuestra agencia es producto de una serie de vivencias que nos ha hecho crecer y evolucionar.<br>
-                                Con la experiencia que hemos acumulado y con una amplia gama de nuestros servicios, estamos comprometidos a ayudarte a resolver tus necesidades.
+                                MISIÓN<br>
+                                Ayudar a nuestros clientes a lograr sus metas a través de ideas creativas, comprendiendo al mercado y su entorno.<br><br>
+
+                                VISIÓN<br>
+                                Ser una agencia reconocida a nivel nacional por su creatividad y compromiso.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h5 class="heading-primary"></h5>
+                            <h3 class="heading-secondary">Valores</h3>
+                            <div class="divider"></div>
+                            <p class="text">
+                                - Honestidad<br>
+                                - Servicio al cliente<br>
+                                - Excelencia<br>
+                                - Compañerismo<br>
+                                - Profesionalismo
                             </p>
                         </div>
                     </div>
@@ -48,6 +63,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
                     </ol>
                 </div>
             </div>
@@ -150,7 +166,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>
@@ -166,7 +182,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>
@@ -182,7 +198,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>
@@ -198,7 +214,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>
@@ -214,7 +230,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>
@@ -230,7 +246,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a>
+                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
                             </div>
                         </div>
                     </div>

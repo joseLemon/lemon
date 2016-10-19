@@ -205,6 +205,14 @@ body {
     position: relative;
 }
 
+.agencia .carousel-inner {
+    min-height: 320px;
+}
+
+.agencia p {
+    margin: 0;
+}
+
 .agencia .carousel-indicators {
     position: relative;
     bottom: initial;
