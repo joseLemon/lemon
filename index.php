@@ -26,7 +26,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <h5 class="heading-primary">Hola mundo, somos</h5>
-                            <h3 class="heading-secondary">Lemon Tree</h3>
+                            <h3 class="heading-secondary">Lemon Three</h3>
                             <div class="divider"></div>
                             <p class="text">
                                 Nuestra agencia es producto de una serie de vivencias que nos ha hecho crecer y evolucionar.<br>
@@ -39,22 +39,22 @@
                             <div class="divider"></div>
                             <p class="text">
                                 MISIÓN<br>
-                                Ayudar a nuestros clientes a lograr sus metas a través de ideas creativas, comprendiendo al mercado y su entorno.<br><br>
+                                Creamos soluciones integrales en Tecnologías de la Información para 
+                                facilitar a nuestros clientes en su proceso de digitalización.<br><br>
 
                                 VISIÓN<br>
-                                Ser una agencia reconocida a nivel nacional por su creatividad y compromiso.
+                                Ser empresa líder en el segmento de soluciones en TI, creando relaciones 
+                                estrechas con nuestros clientes y ofreciendo servicios de la más alta calidad.
                             </p>
                         </div>
                         <div class="item">
                             <h5 class="heading-primary"></h5>
-                            <h3 class="heading-secondary">Valores</h3>
+                            <h3 class="heading-secondary">Filosofía</h3>
                             <div class="divider"></div>
                             <p class="text">
-                                - Honestidad<br>
-                                - Servicio al cliente<br>
-                                - Excelencia<br>
-                                - Compañerismo<br>
-                                - Profesionalismo
+                                Personas integras, enfocados en buscar soluciones y enfocados en la visión 
+                                de los clientes y que quieren para su empresa. Trabajamos con Honestidad y 
+                                Transparencia. Siempre dando el mejor servicio y compromiso para nuestros clientes.
                             </p>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
     <footer>
-        <p class="text-center">Todos los derechos reservados Lemon Tree <?php echo date('Y'); ?></p>
+        <p class="text-center">Todos los derechos reservados Lemon Three <?php echo date('Y'); ?></p>
     </footer>
     
     <script src="js/jquery-3.1.1.min.js"></script>

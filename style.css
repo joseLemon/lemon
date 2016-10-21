@@ -579,10 +579,19 @@ footer p {
     margin: 0;
 }
 
+@media(max-width: 120ppx) {
+    .agencia .carousel-inner {
+        min-height: 350px;
+    }
+}
+
 @media(max-width: 992px) {
     .heading-bg {
         left: 0;
         font-size: 85px;
+    }
+    .agencia .carousel-inner {
+        min-height: 400px;
     }
 }
 
@@ -738,6 +747,6 @@ footer p {
 
 @media(max-width: 480px) {
     .agencia .carousel-inner {
-        min-height: 410px;
+        min-height: 510px;
     }
 }
