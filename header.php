@@ -49,6 +49,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="css/component.css" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>

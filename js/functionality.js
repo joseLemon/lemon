@@ -34,6 +34,14 @@ $('.navbar-nav li').click(function() {
     $(this).addClass('active');
 });
 
+$('.md-trigger').click(function() {
+    $('body').css({'overflow':'hidden'});
+});
+
+$('.md-close').click(function() {
+    $('body').css({'overflow':'auto'});
+});
+
 //  Ajax contact form
 $(function() {
 

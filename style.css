@@ -78,6 +78,57 @@ body {
     margin: 0;
 }
 
+.md-modal {
+    padding: 50px 30px;
+}
+
+.md-modal .date-site {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.md-modal .date-site img {
+    float: left;
+}
+
+.md-modal .date-site p {
+    color: #000000;
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: calc(100% - 60px);
+    float: left;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.md-modal .date-site a {
+    color: #000000;
+    text-decoration: none!important;
+}
+
+.md-modal .divider {
+    padding: 0;
+    margin: 25px auto;
+}
+
+.md-modal .galeria .img-container {
+    padding: 5px;
+}
+
+.md-modal .galeria img {
+    max-height: 100%;
+    max-height: 300px;
+    border: 1px solid #eeeef0;
+}
+
+.md-close {
+    margin-top: 30px!important;
+    background: none;
+    border: 0;
+}
+
 /* -- NAVBAR -- */
 .navbar {
     margin-bottom: 0;

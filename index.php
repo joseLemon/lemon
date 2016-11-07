@@ -166,7 +166,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-1"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-2"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-3"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-1"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-2"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                                 <p class="features">
                                     Diseño y desarrollo Web
                                 </p>
-                                <!-- <a href=""><img src="img/icons/see-project.png" alt="Open Modal"></a> -->
+                                <a href="javascript:" class="md-trigger" data-modal="modal-3"><img src="img/icons/see-project.png" alt="Open Modal"></a>
                             </div>
                         </div>
                     </div>
@@ -254,6 +254,51 @@
             </div>
         </div>
     </div>
+
+    <div class="md-modal md-effect-12" id="modal-1">
+        <div class="md-content container">
+            <h3 class="heading-secondary text-center">REGISTRALOW</h3>
+            <h5 class="heading-primary text-center">Sitio web /Administrador de contenido</h5>
+            <h5 class="heading-primary text-center">Dominio y hosting / Posicionamiento</h5>
+            <div class="divider"></div>
+            <div class="row no-margin date-site">
+                <div class="col-sm-6">
+                    <img src="img/icons/reloj.png" alt="Fecha">
+                    <p>Fecha:</p>
+                    <p>2016</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/icons/internet.png" alt="Sitio Web">
+                    <p>Sitio Web:</p>
+                    <p><a href="http://www.registralow.com" target="_blank">www.registralow.com</a></p>
+                </div>
+            </div>
+            <div class="row no-margin galeria">
+                <div class="col-sm-6">
+                    <div class="img-container">
+                        <img src="img/portafolio/proyectos/cerro/1.png" alt="Galería" class="img-responsive center-block">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img-container">
+                        <img src="img/portafolio/proyectos/cerro/2.png" alt="Galería" class="img-responsive center-block">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img-container">
+                        <img src="img/portafolio/proyectos/cerro/3.png" alt="Galería" class="img-responsive center-block">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img-container">
+                        <img src="img/portafolio/proyectos/cerro/4.png" alt="Galería" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>
+            <button class="md-close"><img src="img/icons/close.png" alt="Cerrar"></button>
+        </div>
+    </div>
+    <div class="md-overlay"></div><!-- the overlay element -->
     <!-- ================================== -->
 
     <!-- ///////////  LO QUE NOS CARACTERIZA  \\\\\\\\\\\ -->
