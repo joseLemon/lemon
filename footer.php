@@ -19,11 +19,6 @@
     <!-- PORTFOLIO MODALS -->
 	<script src="js/classie.js"></script>
 	<script src="js/modalEffects.js"></script>
-	<script>
-		// this is important for IEs
-		var polyfilter_scriptpath = '/js/';
-	</script>
-	<script src="js/css-filters-polyfill.js"></script>
     <!-- GENERAL -->
     <script src="js/functionality.js"></script>
 </body>
