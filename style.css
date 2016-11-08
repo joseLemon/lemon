@@ -127,6 +127,19 @@ body {
     margin-top: 30px!important;
     background: none;
     border: 0;
+    outline: none!important;
+    opacity: .7;
+    -webkit-transition: opacity 300ms ease;
+    -moz-transition: opacity 300ms ease;
+    transition: opacity 300ms ease;
+}
+
+.md-close:hover {
+    opacity: 1;
+}
+
+.md-close img {
+    width: 60px;
 }
 
 /* -- NAVBAR -- */
