@@ -296,6 +296,7 @@
                 </div>
             </div>
             <button class="md-close"><img src="img/icons/close.png" alt="Cerrar"></button>
+            <div class="clearfix"></div>
         </div>
     </div>
 
@@ -340,6 +341,7 @@
                 </div>
             </div>
             <button class="md-close"><img src="img/icons/close.png" alt="Cerrar"></button>
+            <div class="clearfix"></div>
         </div>
     </div>
 
@@ -384,6 +386,7 @@
                 </div>
             </div>
             <button class="md-close"><img src="img/icons/close.png" alt="Cerrar"></button>
+            <div class="clearfix"></div>
         </div>
     </div>
     <div class="md-overlay"></div><!-- the overlay element -->
